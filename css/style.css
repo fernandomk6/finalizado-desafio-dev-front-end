@@ -1,0 +1,1056 @@
+/* footer */
+.footerMenuBar{
+    background-color: #000;
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.footerMenu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+
+
+.footerMenu li{
+    display: inline-block;
+    color: white;
+    padding: 40px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footerMenu li:hover{
+    color: darkgray;
+    
+}
+
+.footer{
+    background-image: url("../img/backFooter4.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 40px 60px 240px;
+}
+
+.footerBox{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.iconSocial{
+    margin-bottom: 20px;
+    display: block;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    padding: 13px;
+    
+}
+
+
+.footerText{
+    border-top: 1px solid rgb(61, 61, 61);
+    margin-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: right;
+}
+
+/* cards */
+
+.cards{
+    background-color: #ccc;
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.cardBox{
+    height: 180px;
+    width: calc(100% - 240px);
+    position: relative;
+    margin-bottom: 20px;
+    left: 240px;
+    padding-bottom: 20px;
+}
+
+.imgCard{
+    width: 240px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+}
+
+.card3{
+    background-color: #73bfb8;
+}
+
+.card2{
+    background-color: #3da5d8;
+}
+
+.card1{
+    background-color: #2364aa;
+}
+
+.t3{
+    color: #73bfb8;
+}
+
+.t2{
+    color: #3da5d8;
+}
+
+.t1{
+    color: #2364aa;
+}
+
+.cardTitle{
+    font-weight: 400;
+    font-size: 26px;
+    position: relative;
+    left: 0;
+    margin-left: 260px;
+    padding: 20px 20px;
+}
+
+.cardTitleBox{
+    font-size: 16px;
+    color: white;
+    z-index: 1;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 180px;
+    line-height: 180px;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    
+
+}
+
+.cardsText{
+    position: relative;
+    margin-left: 260px;
+    color: rgb(99, 97, 97);
+    padding: 20px 20px;
+}
+
+
+/* ------------ index ------------ */
+.srcUserBox{
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    padding: 10px 0;
+    
+    width: 400px;
+}
+.btnSrc{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    height: 26px;
+    border: none;
+    background-color: #000;
+    padding: 0 20px;
+    color: white;
+    opacity: 0.8;
+}
+
+.inputSrc{
+    height: 24px;
+    outline: none;
+    width: 280px;
+    border: none;
+    padding-left: 5px;
+}
+
+.boxSelect select{
+    background-color: darkgray;
+    padding-left: 5px;
+    cursor: pointer;
+    border: none;
+    
+    width: 200px;
+    outline: none;
+    margin-bottom: 20px;
+    height: 40px;
+    margin-left: 0;
+}
+
+.withML{
+    margin-left: 20px;
+}
+
+.fontf5{
+    color: rgb(110, 109, 109);
+    font-size: 14px;
+}
+
+.containerLogin{
+    background-color: #ddd;
+    opacity: 0.9;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    
+}
+
+.backLogin{
+    background-image: url("../img/BackLogin.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.titleLogin{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 22px;
+    padding: 60px 60px 0 60px;
+}
+
+.discripLogin{
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 60px 0 60px;
+    color: rgb(97, 97, 97);
+}
+
+.logoLogin{
+    width: 100px;
+}
+
+.formLogin{
+    padding: 20px 60px 20px 60px;
+}
+.formLogin input{
+    display: block;
+    background-color: #ddd;
+    margin: 0 0 20px 0;
+    padding: 0px 3px;
+    
+    outline: none;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: 0.5s;
+    
+}
+
+.formLogin input:hover{
+    background-color: #ddd;
+    border-bottom: 1px solid darkcyan;
+    
+}
+
+.formLogin button{
+    display: block;
+    background-color: #ccc;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    
+    
+    border-bottom: 1px solid rgb(102, 102, 102);
+
+}
+
+.formLogin button:hover{  
+    background-color: #ccc;
+    border-bottom: 1px solid darkcyan;
+    color: darkcyan;      
+}
+
+.formLogin a{   
+    text-decoration: none;
+    color: darkcyan;      
+}
+
+.formLogin p{  
+    margin-top: 50px;
+    font-size: 12px;      
+}
+
+.msgError{
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.msgErrorEdit{
+    color: red;
+    margin: 30px 0 30px 20px;
+    font-size: 14px;
+}
+
+.msgSucess{
+    color: green;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link{
+    margin: 25px 0;
+}
+
+/* ------------ home -------------- */
+.mainContainer{
+    position: relative;
+}
+
+.headerBar{
+    background-color: #000;
+    opacity: 0.9;
+    height: 62px;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+.headerBarText{
+    line-height: 62px;
+    margin: 0 30px;
+    color: darkgray; 
+}
+
+
+.menu{
+    background-color: darkcyan;
+    position: fixed; 
+    width: 200px; 
+    min-height: 100%;
+    left: 0px;
+    top: 0;
+    transition: 0.3s;
+    z-index: 1; 
+}
+
+
+.menu a {
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.menu li{
+    font-size: 16px;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+
+    padding-left: 30px;
+    
+}
+
+.menu li:hover{
+    background-color: #000
+    
+}
+.logoMenuImg{
+    
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logoMenu{
+    color: white;
+    font-size: 22px;
+    height: 61px;
+    line-height: 62px;
+    /* border-bottom: 1px solid rgb(53, 53, 53); */
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnHamburguer{
+    position: absolute;
+    left: 210px;
+    top: 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+    display: none;
+}
+
+#hamImg{
+    width: 62px;
+    height: 62px;
+}
+
+.mainContent{
+    position: relative;
+    top: 0;
+    transition: 0.3s;
+    background-color: #ccc;
+
+    max-width: 100%;
+    height: auto;
+    min-height: calc(100vh - 62px);
+    
+    padding-bottom: 40px;
+    background-image: url("../img/bannerHome.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.userBack{
+    background-color: darkgray;
+    background-image: none;
+}
+
+.cadBack{
+    background-image: url("../img/backCad.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.welcomeBox{
+    background-color: #000;
+    font-size: 22px;
+    color: #fff; 
+    opacity: 0.8;
+    position: absolute;
+    transition: 0.3s;
+    left: 240px;
+    margin-top: 40px;
+    padding: 20px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.paragraphBox{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.8;
+    position: absolute;
+    left: 240px;
+    margin-right: 40px;
+    top: 50%;
+    padding: 40px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+    
+}
+
+.paragraphBoxTitle{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.paragraphBoxTxt{
+    font-size: 16px;
+    color: #ddd;
+}
+/*------- tela usuario -------*/
+
+/* tabela todos usuarios */
+.boxTable{
+    position: absolute;
+    left: 240px;
+    top: 50px;
+    width: calc(100% - 280px);
+    
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    
+}
+
+.table td, .table th{
+    padding: 5px 10px;
+    line-height: 30px;
+    border-bottom: 1px solid darkcyan;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table th{
+    background-color: #000;
+    color: white;
+    opacity: 0.9;
+}
+
+.table tr{
+    background-color: #ddd;
+}
+
+.table tbody tr:hover{
+    background-color: darkcyan;
+
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #ccc;
+}
+
+.table tbody tr:nth-child(even):hover{
+    background-color: darkcyan;
+}
+
+/* botoes da tabela */
+
+.btnEdit{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+      
+}
+
+.btnDelete{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+    
+}
+
+
+.btns{
+    text-align: center;
+}
+
+/* modal logOut */
+#logOutNao{
+    margin-top: 10px;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    margin: 10px 5px;
+    
+    position: relative;
+    left: 5px;
+    
+}
+
+#logOutSim{
+    margin-top: 10px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    margin: 10px 5px;
+    
+    position: relative;
+    left: 5px;  
+}
+#logOutSim:hover{
+    background-color: red;
+}
+
+#logOutNao:hover{
+    background-color: green;
+}
+
+/* modal delete */
+.msgClose{
+    color: white;
+    background-color: darkred;
+    padding: 12px 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.msgClose:hover{
+    background-color: red;
+}
+
+.modalDelete{
+    width: 300px;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: block;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modalDeleteEdit{
+    width: 500px;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: block;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dispNone{
+    display: none;
+}
+
+.dispShow{
+    display: block;
+}
+
+.modalHeader{
+    background-color: darkcyan;
+    color: #fff;
+    width: calc(100% - 10px);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.modalMsg{
+    color: #000;
+    height: auto;
+    padding: 40px 20px;
+    
+}
+
+#delete{
+    
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    display: inline-block;
+    margin: 10px 5px;
+    position: relative;
+    
+}
+
+#delete:hover{
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#closeModal{
+    
+    margin-top: 10px;
+    height: 30px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    margin: 10px 5px;
+    
+    position: relative;
+    left: 5px;
+    
+}
+
+
+#closeModal:hover{
+   
+   background-color: green; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+/* modal Edição */
+.formLoginEdit{
+    background-color: #ccc;
+}
+
+.formLoginEdit input{
+    display: block;
+    height: 30px;
+    width: calc(100% - 44px);
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    background-color: #ccc;
+    transition: 0.3s;
+    outline: none;
+    margin-left: 20px;
+}
+
+.formLoginEdit input:hover{
+
+    border-bottom: 1px solid darkcyan;
+    
+}
+
+/* mensagem do back end */
+.msgBack{
+    color: white;
+    background-color: green;
+    display: block;
+    padding: 12px 16px;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 240px;
+    margin-top: 20px;
+    width: 220px;
+}
+
+.user{
+    transition: 0.3s;
+    background-image: none;
+    background-color: #ccc;
+    height: fit-content;
+}
+
+.cadastrar{
+    background-color: #ccc;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    width: calc(100% - 780px);
+    left: 240px;
+    top: 40px;
+    padding: 0 40px 40px 40px;
+}
+
+.titleCadastrar{
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.formCadastrar input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    background-color: #ccc;
+    transition: 0.3s;
+    outline: none;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formCadastrar input:hover{
+
+    border-bottom: 1px solid darkcyan;
+    
+}
+
+.btnCadastrar{
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #000;
+    transition: 0.3s;
+    margin-top: 20px;
+
+    text-transform: uppercase;
+}
+
+.btnCadastrar:hover{
+    color: darkcyan;
+    border-bottom: 1px solid darkcyan;
+}
+
+/* responsivo */
+
+@media(max-width: 1130px){
+    .cadastrar{
+        width: calc(100% - 480px);
+    }
+}
+
+@media(max-width: 1000px){
+
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        
+        
+    }
+
+    .table tr{
+        margin-bottom: 15px;
+    }
+
+    .table td:hover{
+        background-color: darkcyan;
+    
+    }
+
+
+    .table td{
+        text-align: right;
+        padding-left: 30%;
+        position: relative;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 20%;
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+}
+
+@media(max-width: 800px){
+
+    .cardBox{
+        left: 40px;
+        width: calc(100% - 40px);
+    }
+
+    .cadastrar{
+        width: calc(100% - 180px);
+        left: 40px;
+    }
+
+    .boxTable{
+        left: 40px;
+        width: calc(100% - 80px);
+    }
+
+    .menu{
+        left: -200px;
+    }
+
+    .welcomeBox{
+        left: 40px;
+    }
+
+    .paragraphBox{
+        left: 40px;
+        top: 30%;
+
+    }
+
+    .btnHamburguer{
+        left: 0;
+        display: inline;
+    }
+
+    .msgBack{
+        left: 40px;
+    }
+
+    
+}
+
+@media(max-width: 700px){
+    /*
+    .headerBarText{
+        display: none;
+    }
+    */
+    
+    .msgBack{
+        display: none;
+    }
+
+    .imgCard{
+        width: 120px;
+        height: 120px;
+    }
+
+    .cardTitleBox{
+        font-size: 12px;
+        height: 100px;
+        line-height: 100px;
+        width: 100%;
+        text-overflow: hide;
+    }
+
+    .cardTitle{
+        margin-left: 140px;
+        padding: 5px 10px;
+    }
+    
+    
+    .cardsText{
+        margin-left: 140px;      
+        padding: 15px 10px;
+    }
+
+    .cardBox{
+        left: 20px;
+    }
+}
+
+@media(max-width: 600px){
+
+    .modalDeleteEdit{
+        width: 300px;
+    }
+
+    .containerLogin{
+        width: 350px;
+    }
+
+    .table td::before{
+        
+        width: 20%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        white-space: nowrap;
+        
+    }
+
+    .table td{
+        padding-left: 30%;
+        overflow: scroll;
+        white-space: nowrap;
+        
+    }
+
+    .inputSrc{
+        height: 24px;
+        outline: none;
+        width: 180px;
+        border: none;
+        padding-left: 5px;
+    }
+
+    .srcUserBox{
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .btnSrc{
+        
+        margin-right: 40px;
+        
+    }
+
+
+
+}
+
+@media(max-width: 400px){
+    
+    .btnCadastrar{
+        width: 100px;
+    }
+    
+    .boxSelect select{
+        width: 100px;
+    }
+
+    .containerLogin{
+        width: 300px;
+    }
+    
+    
+    
+}
+
+@media(max-width: 300px){
+    .inputSrc{
+       
+        width: 100px;
+        
+    }
+
+    .srcUserBox{
+        
+        width: 220px;
+    }
+}
+
+@media(max-height: 300px){
+    .paragraphBox{
+        display: none;
+    }
+
+    
+}
+
+.showMenu{
+    left: 0;
+}
+
+.attHam{
+    left: 210px;
+}
+
+

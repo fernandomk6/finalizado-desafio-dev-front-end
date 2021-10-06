@@ -1,5 +1,3 @@
-# Desafio-Dev-Junior-Completo
-# https://www.bixozo.com.br/
+# Before-PLUS---Desafio-Dev-Jr
 
-# Finalizado-Desafio-Dev-Front-End
-# Finalizado-Desafio-Dev-Front-End
+# Desafio-Dev-Junior---Completo
