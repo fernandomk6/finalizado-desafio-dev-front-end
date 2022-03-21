@@ -1,3 +1,10 @@
-# Before-PLUS---Desafio-Dev-Jr
+# Desafio Dev Junior Completo
+Este foi um desafio de front end  
+desenvolver uma pagina utilizando algumas tecnicas
+de UX / UI  
 
-# Desafio-Dev-Junior---Completo
+## Tecnologias usadas
+[x]PHP
+[x]JavaScript
+[x]HTML
+[x]CSS
