@@ -4,7 +4,7 @@ desenvolver uma pagina utilizando algumas tecnicas
 de UX / UI  
 
 ## Tecnologias usadas
-[x]PHP
-[x]JavaScript
-[x]HTML
-[x]CSS
+- PHP
+- JavaScript
+- HTML
+- CSS
